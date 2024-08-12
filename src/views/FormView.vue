@@ -1,6 +1,7 @@
 <script lang="ts">
-import Vue from "vue";
 import FormComponent from "@/components/form.vue";
+import Vue from "vue";
+
 export default Vue.extend({
   name: "FormView",
   components: {
@@ -10,10 +11,6 @@ export default Vue.extend({
 </script>
 <template>
   <div>
-    <!-- TODO placeholder, remove this text -->
-    <p>Form View</p>
-    <FormComponent>
-      <!-- TODO add relevant components to render form here -->
-    </FormComponent>
+    <FormComponent></FormComponent>
   </div>
 </template>
